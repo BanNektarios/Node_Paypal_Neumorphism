@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #e2e1e1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  border-radius: 15px;
+  background-color: #e0e0e0;
+  box-shadow: 30px 30px 50px #bebebe,
+    -30px -30px 50px #ffffff;
+
+  a {
+    color: black;
+  }
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  box-shadow: 30px 30px 60px #bebebe,
+    -30px -30px 60px #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.amount {
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  box-shadow: inset 7px 7px 14px #b8b8b8,
+    inset -7px -7px 14px #ffffff;
+  padding: 15px;
+
+  
+}
+.amount-right {
+  text-align: right;
+  font-weight: 300;
+  color: grey;
+  font-size: 12px;
+}
+
+
+.jumbotron {
+  margin: auto;
+  border-radius: 40px;
+  background-color: #e7e7e7;
+  box-shadow: 32px 32px 60px #b8b8b8,
+    -32px -32px 60px #ffffff;
+}
+
+
+.btn {
+
+  background: #e0e0e0;
+  width: 200px;
+  border-radius: 50px;
+
+}
+
+img {
+  width: 400px;
+  border-radius: 30%;
+}
